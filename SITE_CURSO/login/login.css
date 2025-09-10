@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../src/image/anime-style-house-architecture.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: poppins, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 14px;
+    border-color: #fff;
+    border: 2px solid;
+    width: 400px;
+    height: 500px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.forgot-password {
+    text-decoration: none;
+ }
+
+ .input_login {
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 40px;
+    padding: 20px 20px;
+    border: 2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fff;
+    outline: none;
+ }
+
+ .input_login::placeholder {
+    color: #fff;
+    background-color: transparent;
+ }
+
+input.input_login:-webkit-autofill,
+input.input_login:-webkit-autofill:focus,
+input.input_login:-webkit-autofill:hover,
+input.input_login:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input.input_login:-moz-autofill {
+    box-shadow: 0 0 0 1000px transparent inset !important;
+    -moz-text-fill-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+      }
+
+.remember_button {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+#remember_box {
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_button {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000000;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login_button:hover {
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.register_cont p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.register {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.register:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
